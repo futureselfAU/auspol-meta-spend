@@ -23,7 +23,7 @@
   <br>
 </div>
 
-<div id="curtin-section">
+<div id="curtin-section" style="display: none;">
   <h1>Curtin</h1>
   <h3>90 Days</h3>
   {% raw %}
