@@ -66,10 +66,16 @@
     var selection = this.value;
     if (selection === "canning") {
       document.getElementById("canning-section").style.display = "block";
+      document.getElementById("curtin-section").style.display = "none";
+      document.getElementById("wa-liberal-section").style.display = "none";
     } else if (selection === "curtin") {
       document.getElementById("curtin-section").style.display = "block";
+      document.getElementById("canning-section").style.display = "none";
+      document.getElementById("wa-liberal-section").style.display = "none";
     } else if (selection === "wa-liberal") {
       document.getElementById("wa-liberal-section").style.display = "block";
+      document.getElementById("curtin-section").style.display = "none";
+      document.getElementById("canning-section").style.display = "none";
     }
   });
 </script>
