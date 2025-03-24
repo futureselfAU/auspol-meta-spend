@@ -4,8 +4,8 @@
   <option value="wa-liberal">WA Liberal Candidates</option>
 </select>
 
-<div id="curtin-section">
-  <h1>Curtin</h1>
+<div id="canning-section">
+  <h1>Canning</h1>
   <h3>90 Days</h3>
   {% raw %}
   <div id="fb-root"></div>
@@ -23,7 +23,7 @@
   <br>
 </div>
 
-<div id="canning-section">
+<div id="curtin-section">
   <h1>Curtin</h1>
   <h3>90 Days</h3>
   {% raw %}
