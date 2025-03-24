@@ -74,7 +74,7 @@
       document.getElementById("curtin-section").style.display = "block";
     } else if (selection === "wa-liberal") {
       document.getElementById("wa-liberal-section").style.display = "block";
-    } else if (selection === "new-candidate") {
+    } else if (selection === "canning") {
       document.getElementById("canning-section").style.display = "block";
     }
   });
