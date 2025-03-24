@@ -72,7 +72,7 @@
     // Show the selected section
     if (selection === "curtin") {
       document.getElementById("curtin-section").style.display = "block";
-    } else if (selection === "wa-liberal") {
+    } else if (selection === "curtin-section") {
       document.getElementById("wa-liberal-section").style.display = "block";
     } else if (selection === "canning") {
       document.getElementById("canning-section").style.display = "block";
