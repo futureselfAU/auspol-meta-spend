@@ -97,7 +97,7 @@
       document.getElementById("wa-liberal-section").style.display = "block";
     } else if (selection === "canning") {
       document.getElementById("canning-section").style.display = "block";
-    } else if (selection === "flinders" {
+    } else if (selection === "flinders") {
       document.getElementById("flinders-section").style.display = "block";
     }
   });
