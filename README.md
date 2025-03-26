@@ -1,9 +1,9 @@
-<div class="candidate-buttons">
-  <button data-target="canning-section">Canning</button>
-  <button data-target="curtin-section">Curtin</button>
-  <button data-target="flinders-section">Flinders</button>
-  <button data-target="wa-liberal-section">WA Liberal Candidates</button>
-</div>
+<select id="candidate-select">
+  <option value="canning">Canning</option>
+  <option value="curtin">Curtin</option>
+  <option value="flinders">Flinders</option>
+  <option value="wa-liberal">WA Liberal Candidates</option>
+</select>
 
 <div id="canning-section">
   <h1>Canning</h1>
@@ -81,14 +81,24 @@
   <br>
 </div>
 
-document.querySelectorAll('.candidate-buttons button').forEach(function(button) {
-  button.addEventListener('click', function() {
-    // Hide all sections
-    document.querySelectorAll(".candidate-section").forEach(function(section) {
-      section.style.display = "none";
-    });
-    // Show the target section
-    var target = this.getAttribute('data-target');
-    document.getElementById(target).style.display = "block";
+<script>
+  document.getElementById("candidate-select").addEventListener("change", function() {
+    var selection = this.value;
+    // Hide all sections first
+    document.getElementById("canning-section").style.display = "none";
+    document.getElementById("curtin-section").style.display = "none";
+    document.getElementById("flinders-section").style.display = "none";
+    document.getElementById("wa-liberal-section").style.display = "none";
+    
+    // Show the selected section
+    if (selection === "curtin") {
+      document.getElementById("curtin-section").style.display = "block";
+    } else if (selection === "wa-liberal") {
+      document.getElementById("wa-liberal-section").style.display = "block";
+    } else if (selection === "canning") {
+      document.getElementById("canning-section").style.display = "block";
+    } else if (selection === "flinders") {
+      document.getElementById("flinders-section").style.display = "block";
+    }
   });
-});
+</script>
