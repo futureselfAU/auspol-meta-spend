@@ -44,7 +44,7 @@
 </div>
 
 <div id="flinders-section" style="display: none;">
-  <h1>WA Liberal Candidates</h1>
+  <h1>Flinders</h1>
   <h3>90 Days</h3>
   {% raw %}
   <div id="fb-root"></div>
