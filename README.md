@@ -97,7 +97,7 @@
   {% raw %}
  <div id="fb-root"></div>
 <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v7.0"></script>
-<div class="fb-ad-library-spend-tracker" data-country="AU" data-page-ids="105228161893855,308746806571901,502399306292375,113998151684022,364778170063379,316480331783930,617062438149399,110680668178304,272776272576972,319994201189969" data-time-preset="last_90_days" data-width="500"></div>
+<div class="fb-ad-library-spend-tracker" data-country="AU" data-page-ids="105228161893855,308746806571901,502399306292375,113998151684022,364778170063379,316480331783930,617062438149399,110680668178304,272776272576972,319994201189969" data-time-preset="last_7_days" data-width="500"></div>
   {% endraw %}
   <br>
 </div>
